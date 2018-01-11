@@ -31,7 +31,6 @@ def concat_lists(list1, list2):
         return list1 + list2
 
 
-
 if __name__ == '__main__':
     import doctest
     if doctest.testmod().failed == 0:
