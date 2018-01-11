@@ -21,6 +21,16 @@ It should work if either list is empty::
 def concat_lists(list1, list2):
     """Combine lists."""
 
+    if list1 is []:
+        return list2
+
+    elif list2 is []:
+        return list1
+
+    else:
+        return list1 + list2
+
+
 
 if __name__ == '__main__':
     import doctest
